@@ -1,7 +1,7 @@
 # ros2_gmapping
-适配ROS2的gmapping实现
+适配ROS2的gmapping实现。
 
-本项目参考了https://github.com/Project-MANAS/slam_gmapping，特此感谢！原型项目基于ROS1的slam_mapping做了ROS2适配，可以在ROS2下实现机器人建图，其基本功能运行正常，但是在使用过程中也发现一些小问题，比如：参数并未动态化处理、地图更新频率设置存在BUG。当前项目便针对上述问题做了优化处理。
+本项目参考了https://github.com/Project-MANAS/slam_gmapping。特此感谢！原型项目基于ROS1的slam_mapping做了ROS2适配，可以在ROS2下实现机器人建图，其基本功能运行正常，但是在使用过程中也发现一些小问题，比如：参数并未动态化处理、地图更新频率设置存在BUG。当前项目便针对上述问题做了优化处理。
 
 ### 使用流程如下：
 
